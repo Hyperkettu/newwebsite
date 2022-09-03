@@ -1,0 +1,1 @@
+export type DatabaseRequest = 'create' | 'read' | 'update' | 'delete'; 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Olli Kettunen Personal Website</title>
+    <link rel = "icon" href = "kettu.png" type = "image/x-icon">
+    <meta charset="UTF-8">  
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="bundle.js"></script>
+    <script>
+            window.onload = function () {			
+		        main.main();
+	        }
+    </script>
+</head>
+<body style="background-image: url('bg2.png'); background-size:contain;">
+
+   <canvas id="canvas" class="canvas"></canvas>
+
+    <div class="header">
+        <div>
+            <button id="home-button" class="header-button gradient-text">| Home |</button>
+            <button id="about-button" class="header-button gradient-text">| About Me |</button>
+            <button id="portfolio-button" class="header-button gradient-text">| Portfolio |</button>
+        </div>
+        <img class="header-logo" src="kettu.png">
+        <h3 class="header-text gradient-text">Olli Kettunen</h3>
+        <div class="contact"> 
+            <div class="gradient-text">• E-mail: oj.kettunen[at]gmail.com</div>
+            <div class="gradient-text">• Phone: +358 50 574 0131</div>
+            <a id="cv-link" class="cv cv-link gradient-text" href="data/CV Olli Kettunen.pdf">• Curriculum Vitae</a><br>
+            <a id="github-link" class="cv cv-link gradient-text" href="https://www.github.com/Hyperkettu">• Github Portfolio</a>
+
+        </div>
+    </div>
+
+    <div id="content"  class="content">
+    <div class="home-class gradient-text">  Welcome to my personal Website!</div> 
+
+    <div id="portfolio" class="portfolio"> My Portfolio: 
+    </div>
+    <div class="about-me">
+        <div class="about-header gradient-text">About Me: </div>
+            
+            <div class="list" >
+                <ul>
+                    <li class="gradient-text">• person with sense of humor, ambitious, positive, creative</li>
+                    <li class="gradient-text">• Master of Science, Aalto University, Media Technology, 2007-2014</li>
+                    <li class="gradient-text">• Olarin lukio graduate in 2007</li>
+                    <li class="gradient-text">• real-time computer graphics and game programming</li>
+                    <li class="gradient-text">• computer and console games</li>
+                    <li class="gradient-text">• salibandy, football, futsal</li>
+                    <li class="gradient-text">• Skills: Unreal Engine 5, DirectX 12 Ultimate, Unity3D, OpenGL, PIXI.js, Three.js</li>
+                </ul>
+                <img class="profile-pic" src="olli.png">
+                
+            </div>
+    </div>
+  
+    </div>
+
+</body>
+</html>
